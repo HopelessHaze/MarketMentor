@@ -79,10 +79,11 @@ const getStartedButton = document.querySelector('.hero .cta');
 if (getStartedButton) {
     getStartedButton.addEventListener('click', (event) => {
         event.preventDefault();
-        const contactSection = document.getElementById('contact-us');
-        if (contactSection) {
+        const chatGPTSection = document.getElementById('ask-chatgpt-section');
+        if (chatGPTSection) {
+            chatGPTSection.style.display = 'block'; // Reveal the "Ask ChatGPT" section
             window.scrollTo({
-                top: contactSection.offsetTop - 80, // Adjust for header height
+                top: chatGPTSection.offsetTop - 80, // Adjust for header height
                 behavior: 'smooth'
             });
         }
@@ -103,7 +104,7 @@ if (contactTextarea) {
 }
 
 // =========================
-// ChatGPT Search Bar Logic
+// ChatGPT Search Bar Logic with OpenRouter
 // =========================
 
 // DOM Elements for ChatGPT Search Bar
@@ -111,7 +112,7 @@ const searchInput = document.getElementById('chatgpt-query');
 const searchButton = document.getElementById('search-btn');
 const searchResults = document.getElementById('search-results');
 
-// Function to handle ChatGPT query
+// Function to handle ChatGPT query using OpenRouter
 async function handleSearch() {
     const query = searchInput.value.trim();
 
@@ -125,15 +126,15 @@ async function handleSearch() {
     searchResults.innerHTML = `<p>Loading...</p>`;
 
     try {
-        const response = await fetch('https://api.openai.com/v1/completions', {
+        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer YOUR_API_KEY` // Replace with your OpenAI API key
+                'Authorization': `Bearer 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` // OpenRouter API Key
             },
             body: JSON.stringify({
-                model: "text-davinci-003", // Specify the model you want to use
-                prompt: query,
+                model: "gpt-3.5-turbo", // Specify the model you want to use
+                messages: [{ role: "user", content: query }],
                 max_tokens: 150
             })
         });
@@ -141,7 +142,7 @@ async function handleSearch() {
         const data = await response.json();
 
         if (data.choices && data.choices.length > 0) {
-            searchResults.innerHTML = `<p>${data.choices[0].text.trim()}</p>`;
+            searchResults.innerHTML = `<p>${data.choices[0].message.content.trim()}</p>`;
         } else {
             searchResults.innerHTML = `<p>Sorry, I couldn't find an answer.</p>`;
         }
