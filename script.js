@@ -2,7 +2,7 @@
 const dynamicTitle = document.querySelector('.dynamic-title');
 
 // Define words to animate in the title
-const titleWords = ['Welcome to MarketeMentor', 'The Walmart Supplier AI Assistant', 'Try it Now'];
+const titleWords = ['Welcome to MarketMentor', 'The Walmart Supplier AI Assistant', 'Try it Now'];
 let titleIndex = 0;
 
 function changeTitleWord() {
