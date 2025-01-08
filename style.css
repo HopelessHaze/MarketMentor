@@ -1,0 +1,332 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+/* CSS Variables */
+:root {
+    --bg-dark: #000000;
+    --bg-navy: #0C111F;
+    --bg-grey-navy: #2A2E3A; /* Greyish-navy background color */
+    --text-gradient-start: #00E5FF;
+    --text-gradient-end: #FF8C42;
+    --button-gradient-start: #00E5FF;
+    --button-gradient-end: #FF8C42;
+}
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--bg-navy), var(--bg-dark));
+    background-size: 400% 400%;
+    animation: gradientShift 6s ease infinite;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #1a1a1d;
+}
+
+header .logo {
+    font-family: 'inherit', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0px 0px 8px var(--text-gradient-start);
+    animation: glowCycle 3s infinite alternate;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shineEffect 6s ease-in-out infinite;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .cta {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--button-gradient-start), var(--button-gradient-end));
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: gradient-cycle 3s linear infinite;
+    background-size: 200% 200%;
+}
+
+.hero .cta:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--button-gradient-end);
+}
+
+/* Features Section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.feature {
+    background: #1a1a1d;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure all tiles match in height */
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature p {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Customer Reviews Section */
+.customer-reviews {
+    padding: 3rem;
+}
+
+.customer-reviews h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid for reviews */
+    gap: 1.5rem;
+}
+
+.review {
+    background: var(--bg-grey-navy);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.review p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.review span {
+    font-weight: bold;
+    color: #c4c4c4;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    padding: 3rem;
+}
+
+.why-choose-us h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reason h3 {
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* Contact Us Section */
+.contact-us {
+    text-align: center;
+    background: #2A2E3A;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+}
+
+.contact-us h2 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowCycle 3s infinite alternate;
+}
+
+.contact-us textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #1a1a1d;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.contact-us textarea:focus {
+    outline: none;
+    border: 2px solid var(--text-gradient-start);
+    box-shadow: 0 0 10px var(--text-gradient-start);
+}
+
+.contact-us button {
+    padding: 0.8rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, var(--button-gradient-start), var(--button-gradient-end));
+    border-radius: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.contact-us button:hover {
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes glowCycle {
+    0% { text-shadow: 0px 0px 8px var(--text-gradient-start); }
+    50% { text-shadow: 0px 0px 15px var(--text-gradient-end); }
+    100% { text-shadow: 0px 0px 8px var(--text-gradient-start); }
+}
+
+@keyframes shineEffect {
+    0% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+    100% { background-position: 0% center; }
+}
+
+@keyframes gradient-cycle {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and navigation vertically */
+        text-align: center;
+    }
+
+    header .menu {
+        flex-direction: column; /* Stack navigation links */
+        gap: 0.5rem; /* Reduce spacing between links */
+    }
+
+    .features, .review-grid {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+        padding: 1rem;
+        gap: 3rem; /* Increased spacing between feature tiles */
+    }
+
+    .feature, .review {
+        margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem; /* Resize font dynamically for smaller screens */
+        line-height: 1.2; /* Maintain good readability */
+        white-space: nowrap; /* Prevent text wrapping */
+        overflow: hidden; /* Ensure text doesn't break or overflow */
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 1rem; /* Keep consistent padding */
+    }
+
+    .hero .cta {
+        font-size: 0.9rem;
+    }
+
+    .customer-reviews h2, .why-choose-us h2 {
+        font-size: 2rem;
+    }
+
+    .contact-us h2 {
+        font-size: 1.8rem;
+    }
+}
