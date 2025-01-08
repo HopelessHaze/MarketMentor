@@ -26,7 +26,15 @@
         <section class="hero">
             <h1><span class="dynamic-title">Welcome to MarketMentor</span></h1>
             <p>Your Walmart Supplier AI Assistant.</p>
-            <button class="cta" onclick="window.location.href='#contact-us'">Get Started</button>
+            <button id="get-started" class="cta">Get Started</button>
+
+            <!-- Ask ChatGPT Section -->
+            <div id="ask-chatgpt-section" class="ask-chatgpt" style="display: none;">
+                <h2>Ask ChatGPT</h2>
+                <textarea id="chatgpt-query" placeholder="Type your question here..."></textarea>
+                <button id="chatgpt-submit" class="cta">Ask</button>
+                <div id="chatgpt-response" class="chatgpt-response"></div>
+            </div>
         </section>
 
         <section id="contact-us" class="contact-us">
