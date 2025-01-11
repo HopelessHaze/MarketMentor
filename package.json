@@ -1,0 +1,24 @@
+{
+    "name": "github",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "wigmore website",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nunnsense/MarketMentor.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Nunnsense/rketMentor/issues"
+    },
+    "homepage": "https://github.com/Nunnsense/rketMentor#readme",
+    "dependencies": {
+      "bootstrap": "^5.3.3"
+    }
+  }
+  

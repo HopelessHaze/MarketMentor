@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wigmore - {{ title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container legal">
+        <h1><a href="/" class="logo logo-link">wigmore</a></h1>
+        <div class="legal-content">
+            <h2>{{ title }}</h2>
+            <div class="legal-text">
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © 2025 Nunn Ventures, LLC. All rights reserved.<br>
+        <span class="footer-links">
+            <a href="/terms">Terms of Service</a> | 
+            <a href="/privacy">Privacy Policy</a> | 
+            Questions? Comments?
+            <a href="mailto:admin@wigmore.ai">Contact admin@wigmore.ai</a>
+        </span>
+    </div>
+</body>
+</html>

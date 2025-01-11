@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Mentor</title>
+
+  <meta name="description" content="Your AI-powered guide for Walmart suppliers.">
+
+  <meta property="og:title" content="Market Mentor - AI for Walmart Suppliers">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.marketmentor.ai">
+  <meta property="og:image" content="https://www.marketmentor.ai/images/marketmentor-logo.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Market Mentor logo">
+  <meta property="og:description" content="The ultimate AI-powered resource for Walmart tools, processes, and requirements.">
+  <meta property="og:site_name" content="Market Mentor">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Market Mentor - AI for Walmart Suppliers">
+  <meta name="twitter:description" content="Your AI-powered guide for navigating Walmart's tools and processes.">
+  <meta name="twitter:image" content="https://www.marketmentor.ai/images/marketmentor-logo.jpg">
+
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/images/favicon-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180x180.png">
+
+  <meta name="theme-color" content="#004b23">
+
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XXXXXXX');
+  </script>
+</head>
+<body>
+  <div class="pre-alpha-notice">
+    This AI system is currently in development (<strong>v1.0.7</strong>) and is designed to assist Walmart suppliers. Results should be independently verified, as they may contain inaccuracies or errors.
+  </div>  
+  <div class="container">
+    <h1 class="logo">Market Mentor</h1>
+    <p class="tagline">Your AI-powered guide for Walmart Suppliers</p>
+    <div class="search-box">
+      <textarea id="question" class="search-input" placeholder="Ask any question about Walmart's tools, processes, or requirements..."></textarea>
+      <button id="askButton" class="search-button">
+        <i class='fas fa-search'></i> Search
+      </button>
+    </div>
+    <div id="response" class="response-box"></div>
+    <div class="loading-animation">
+      <div class="spinner">
+        <svg viewBox="0 0 50 50">
+          <circle class="ring" cx="25" cy="25" r="20" fill="none" stroke-width="4"/>
+          <circle class="line" cx="25" cy="25" r="20" fill="none" stroke-width="4"/>
+        </svg>
+        <p class="processing-message">Thinking . . .<br>
+        <span class="processing-time">Results typically take ~30 seconds</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <span class="footer-links">
+        <a href="/terms">Terms of Service</a> | 
+        <a href="/privacy">Privacy Policy</a> | 
+        Questions? Comments?
+        <a href="mailto:support@marketmentor.ai">Contact support@marketmentor.ai</a> |
+        © 2025 Market Mentor. All rights reserved.
+    </span>
+  </div>
+  <script src="/static/script.js" defer></script>
+</body>
+</html>

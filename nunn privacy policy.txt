@@ -1,0 +1,183 @@
+Nunn.ai  
+PRIVACY POLICY  
+Effective Date: January 4, 2025
+
+1. INTRODUCTION
+
+Nunn.ai ("we," "us," or "our"), a product of Nunn Ventures, LLC, is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered evidence law educational platform ("Service"). By accessing or using our Service, you agree to this Privacy Policy. If you do not agree, please refrain from using the Service.
+
+2. INFORMATION WE COLLECT
+
+2.1 Personal Information
+
+We collect personal information that you voluntarily provide when you use the Service:
+
+- Contact Information: Email addresses or other contact details you provide when communicating with us.
+- User Content: Questions, comments, or other materials you submit through the Service.
+- Interaction Data: Interaction data with our AI system, including timestamps of your queries, search relevancy feedback, and cached queries for improving relevancy checks.
+
+2.2 Technical Information
+
+We automatically collect certain information when you interact with the Service:
+
+- Log Data: IP address, browser type, operating system, referring URLs, pages viewed, and timestamps. We anonymize or mask personally identifiable information (PII) where appropriate.
+- Usage Patterns: Usage patterns and interaction metrics.
+- Performance Analytics: Performance analytics, error logs, and debugging information. Error logs may contain query metadata needed for troubleshooting, but we strive to minimize the inclusion of PII.
+- Cookies and Similar Technologies: Information collected through cookies to enhance user experience. We use essential cookies for session management and may use analytics cookies for improving the Service. You can manage cookies through your browser settings.
+
+2.3 Third-Party Data
+
+Our Service integrates with third-party APIs and services:
+
+- API Providers: We use APIs from OpenRouter, OpenAI ([openai.com](https://openai.com)), You.com ([you.com](https://you.com)), Google Custom Search ([policies.google.com](https://policies.google.com)), and others to process your queries. Your queries and search results may be transmitted to these third-party APIs for processing. These providers may use the data according to their privacy policies.
+- Third-Party Analytics: Services that help us understand how users interact with our Service.
+
+3. HOW WE USE YOUR INFORMATION
+
+3.1 To Provide and Improve the Service
+
+- Answer Generation: Your questions are processed to generate AI-powered responses. This may involve caching queries to improve relevancy and performance.
+- Service Enhancement: Usage data helps us improve functionality and user experience.
+- Improve AI Models: User interactions may be used to fine-tune our AI models; anonymized and aggregated data is used for these purposes.
+- Search Relevancy: To enhance search results and relevancy.
+- Maintain Service Quality: Ensuring consistent quality and performance of our Service.
+
+3.2 Communication
+
+- User Support: Responding to your inquiries or requests.
+- Updates and Notifications: Informing you about changes to the Service or policies.
+
+3.3 Legal Obligations
+
+- Compliance: Ensuring we meet legal obligations and protect our rights.
+
+4. INFORMATION SHARING AND DISCLOSURE
+
+4.1 Third-Party Service Providers
+
+We may share your information with third parties who perform services on our behalf:
+
+- API Partners: Your queries may be transmitted to API providers for processing. These third-party services operate under their own privacy policies. For more information, please review their privacy policies: [openrouter.ai](https://openrouter.ai/privacy), [openai.com](https://openai.com/privacy/), [you.com](https://you.com/privacy), [policies.google.com](https://policies.google.com/privacy).
+- Cloud Hosting: Data stored securely on third-party servers.
+
+4.2 Legal Requirements
+
+We may disclose your information:
+
+- Compliance with Laws: As required by law or in response to valid requests.
+- Protection of Rights: To protect the rights, property, or safety of Nunn.ai, our users, or others.
+
+4.3 Business Transfers
+
+- Merger or Acquisition: In the event of a merger or transfer, user information may be part of the assets transferred.
+
+4.4 User Options Regarding Third-Party APIs
+
+- Opt-Out: You may opt out of data transmission to third-party API providers, though this may limit certain functionalities.
+
+5. COOKIES AND TRACKING TECHNOLOGIES
+
+5.1 Essential Cookies
+
+We use essential cookies to:
+
+- Maintain Session Information: Ensure you remain logged in and maintain session details.
+- Ensure Platform Functionality: Ensure the Service operates correctly.
+- Prevent Misuse or Abuse: Protect against fraudulent or malicious activities.
+
+5.2 Analytics
+
+We use analytics to:
+
+- Measure Platform Performance: Assess and improve performance.
+- Track Usage Patterns: Understand how the Service is used.
+- Improve User Experience: Enhance the user experience.
+- Optimize AI Responses: Improve the accuracy and relevancy of responses.
+
+5.3 Do Not Track Signals
+
+Our Service does not respond to Do Not Track signals and does not track users across third-party services. Please note that third-party services integrated into our Service may honor Do Not Track signals according to their own privacy policies: [openai.com](https://openai.com/privacy), [you.com](https://you.com/privacy), [policies.google.com](https://policies.google.com/privacy).
+
+6. DATA RETENTION AND SECURITY
+
+6.1 Data Retention
+
+We retain your personal information only as long as necessary:
+
+- Question Logs: Retained for 90 days.
+- Technical Logs: Retained for 30 days; anonymized or encrypted as appropriate.
+- Analytics Data: Retained for 12 months.
+- Anonymized Training Data: Retained indefinitely for AI improvement.
+
+6.2 Security Measures
+
+Measures are in place to protect your information:
+
+- Encryption: Data encryption during transmission using SSL/TLS.
+- Secure API Key Management: Ensures API keys are securely stored and rotated.
+- Regular Security Audits: Regular security checks and updates.
+- Access Controls: Limited access to personal information.
+- Logging and Error Handling: Ensures logs do not retain sensitive information.
+
+6.3 Incident Response
+
+In case of a data breach, we will:
+
+- Notification: Notify affected users and authorities promptly.
+- Mitigation: Act to mitigate the breach impact.
+
+6.4 Data Storage
+
+Your data is stored on secure servers provided by third-party hosting services. We follow industry best practices to safeguard your information but cannot guarantee absolute security. For more information on their security practices, please refer to their privacy policies: [openai.com](https://openai.com/privacy), [you.com](https://you.com/privacy), [policies.google.com](https://policies.google.com/privacy).
+
+7. USER RIGHTS AND CHOICES
+
+7.1 Your Rights
+
+You have rights regarding your data:
+
+- Access: Request access to your data.
+- Correction: Correct inaccurate data.
+- Deletion: Request data deletion.
+- Opt-Out: Opt-out of analytics and third-party interactions.
+- Export: Export your interaction history.
+
+7.2 Exercise Your Rights
+
+Please contact us at [alex@nunn.ai](mailto:alex@nunn.ai) to exercise these rights.
+
+7.3 GDPR and CCPA Disclosures
+
+For residents of the European Economic Area (EEA) or California, additional rights apply under GDPR and CCPA:
+
+- Right to Data Portability: Request your personal data in a portable format.
+- Right to Object: Object to data processing for profiling or marketing.
+
+8. CHILDREN'S PRIVACY
+
+Our Service is not intended for individuals under 18. If we inadvertently collect such information, please contact us for deletion.
+
+9. INTERNATIONAL USERS
+
+By using our Service outside the United States, you consent to data transfer to the United States.
+
+10. THIRD-PARTY LINKS
+
+Our Service may link to third-party sites. We recommend reviewing their privacy policies:
+
+- OpenAI: [openai.com](https://openai.com/privacy)
+- Google: [policies.google.com](https://policies.google.com/privacy)
+- You.com: [you.com](https://you.com/privacy)
+- OpenRouter: [openrouter.ai](https://openrouter.ai/privacy)
+
+11. CHANGES TO THIS PRIVACY POLICY
+
+We may update this policy periodically. Your continued use after updates constitutes acceptance.
+
+12. CONTACT US
+
+For inquiries about this Privacy Policy, contact us at:
+
+- Email: [alex@nunn.ai](mailto:alex@nunn.ai)
+- Address: Nunn Ventures, LLC, 3617 Austin Ct., Flower Mound, TX 75028
+
